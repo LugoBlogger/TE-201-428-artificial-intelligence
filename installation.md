@@ -18,7 +18,7 @@ through VSCode extension.
    Python. There is a possibility that you have a Python program that resides
    outside the Anaconda and Miniconda.
 
-2. TO remove them, you can uninstall in "Add or Remove Program" menu
+2. To remove them, you can uninstall in "Add or Remove Program" menu
 
 3. Please follow carefully all the steps. Most of the students missed the step 
    and made many typoes in entering the commands
@@ -33,14 +33,14 @@ To insall it, we can proceed with theh following steps.
    Choose the insaller for Windows 11. (If you use Windows 10, MacOS or Linux, 
    please choose the appropriate version).
 
-   <img src="" width=400>
+   <img src="./img-sources/installation-vscode-download-page.png" width=400>
 
 2. Follow the instructions that are given during installation processes. 
    You can click "Next" or "Yes'. After the installation has been done, the
    "Welcome Page" will be shown. If it is not shown like in the figure, open 
    VSCode application manually from Start Menu.
 
-   <img src="" width=400>
+   <img src="./img-sources/installation-vscode-welcome-page.png" width=400>
 
 At this moment, VSCode has been installed to your computer, and we ready to 
 continue to the next steps which is Miniconda installation.
@@ -66,7 +66,7 @@ In here, we only install for Windows users. Please follow carefully each step.
    https://repo.anaconda.com/miniconda/. Then select 
    `Miniconda3-py311_25.1.1-2-Windows-x86_64.exe`.
 
-   <img src="" width=400>
+   <img src="./img-sources/installation-miniconda-download-page.png" width=400>
 
 2. (optional) If you want to check that the downloaded filed is really the 
    intended Miniconda installer, we can verify it using SHA256 by typing 
@@ -91,6 +91,8 @@ In here, we only install for Windows users. Please follow carefully each step.
    "Anaconda Prompt (Miniconda 3)" from the Start Menu. Open that program to 
    initiate the base environment
 
+   <img src="./img-sources/miniconda-prompt.png" width=400>
+
 At this point, you have installed VSCode and Python and ready to continue for 
 the installation of VSCode extensions and Python modules.
 
@@ -112,7 +114,7 @@ extensions follow the same procedure to install them.
 1. Open VSCode, left click on the extension icon (an icon that is represented 
    with four small blocks where the single block in the upper right is shifted).
 
-   <img src="" width=400>
+   <img src="./img-sources/installation-vscode-extension-jupyter.png" width=400>
 
 2. In the "Search box", type "Jupyter". Then left click to the blue button
    "Install". If you have done the installation for this extension, that blue
@@ -123,3 +125,24 @@ extensions follow the same procedure to install them.
    following commands to install Python modules in the base environment.
    Make sure that in the console, there is a pre-text `(base)` that shows
    you are in the "base" environment.
+
+   ```text
+   pip install ipykernel numpy==1.26.4 matplotlib pandas
+   ```
+
+4. (optional) In the later weeks, we will use some Python modules. 
+   All installations can be done by using `pip` command.
+   Please check and read how to install the following modules
+   - `scikit-opt`: https://scikit-opt.github.io/scikit-opt/#/en/README?id=quick-start
+   - `scikit-fuzzy`: https://pythonhosted.org/scikit-fuzzy/userguide/getting_started.html
+   - `tensorflow`: https://www.tensorflow.org/tutorials
+
+
+### Troubleshooting
+
+- This problem arise in Windows 10 that "Detecting kernels" took so long to complete.
+  You need to add these two Paths:
+  ```
+  C:\Users\<your-username>\miniconda3
+  C:\Users\<your-username>\miniconda3\Scripts
+  ```
