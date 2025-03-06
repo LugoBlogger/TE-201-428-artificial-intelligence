@@ -1,4 +1,4 @@
-# Assignemtn 01
+# Assignment 01
 
 Full name (Student ID Number)
 
