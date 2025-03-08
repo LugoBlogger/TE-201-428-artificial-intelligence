@@ -1,7 +1,7 @@
 # TE 201 428 - Artificial Intelligence
 
 This repository is for partial notes during the course "Artificial Intelligence" 
-in the Department of Electrical Engineering at Institut Teknologi Kalimantan. 
+in the Study Program of Electrical Engineering at Institut Teknologi Kalimantan. 
 This course basically is not a real "artificial intelligence", but it is 
 more specific to computational intelligence to solve some specific problems
 which are heavily dependent to the book (Engelbrecht, 2017). 
