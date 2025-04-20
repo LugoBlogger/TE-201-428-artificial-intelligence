@@ -18,5 +18,9 @@ to make sure that you have compresed the right files.
 
 ## Problem 1 (70 points)
 
+Explore the following example: https://www.tensorflow.org/tutorials/keras/regression
+
 
 ## Problem 2 (30 points)
+
+Find the newest version of `auto MPG`.

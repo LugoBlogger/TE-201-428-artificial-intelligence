@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RGB Color Sliders</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="container-gray">
+      <div id="gray-box"></div>
+      <div class="gray-controls">
+        <label for="gray-sliders">Gray : <span id="gray-value">0</span></label>
+        <input type="range" id="gray-slider" min="0" max="255" value="0">
+      </div> 
+    </div>
+    <div class="container-color">
+      <!-- Color Box -->
+       <div id="color-box"></div>
+
+       <!-- Sliders and RGB Value Display -->
+      <div class="controls">
+        <label for="red-sliders">Red&nbsp;&nbsp : <span id="red-value">0</span></label>
+        <input type="range" id="red-slider" min="0" max="255" value="0">
+
+        <label for="green-slider">Green : <span id="green-value">0</span></label>
+        <input type="range" id="green-slider" min="0" max="255" value="0">
+
+        <label for="blue-slider">Blue &nbsp;: <span id="blue-value">0</span></label>
+        <input type="range" id="blue-slider" min="0" max="255" value="0">
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+<!-- GitHub: lugoblogger -->
+</html>
