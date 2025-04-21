@@ -18,9 +18,21 @@ to make sure that you have compresed the right files.
 
 ## Problem 1 (70 points)
 
-Explore the following example: https://www.tensorflow.org/tutorials/keras/regression
+During the lecture of Week-07, we have seen how to build a letter recognition 
+using convolutional network. In this task, you need to explore if it is 
+possible to create an image classification only using several stacked of
+convolutional layers. For the starting point, you have to use two stacked
+layers of convolutional layers with different number of kernels.
 
+You goal is to find out the least number of trainable parameters that you 
+can get and its accuracy for testing data is higher than 92%. The number
+of trainable parameters in the given example during the class is 696,165 
+parameters.  Your number of trainable parameters must less than this number.
+You must use a single fully connected neural network (`tf.keras.Dense()`)
+just for the flattening.
 
 ## Problem 2 (30 points)
-
-Find the newest version of `auto MPG`.
+Instead of dividing the dataset into training and testing, divide
+the training data into training and validation. Use the ratio 80:20
+for training and validation respectively. Did you get a better result
+in testing data?
