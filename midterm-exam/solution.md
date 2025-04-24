@@ -1,8 +1,10 @@
 # Midterm Exam
 
-Full name:
-Studen ID: 
+Full name :   
+Student ID : 
 
 ## Solution
+
+Please write in here your solution.
 
 
