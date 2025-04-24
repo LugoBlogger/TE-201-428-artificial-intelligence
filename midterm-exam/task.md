@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td> <img src="../img-sources/ITK-logo-white.png" width=200>
-    <td width=80% style="text-align: center; font-size: 14pt"> 
+    <td width=100px><img src="../img-sources/ITK-logo.png" width=100>
+    <td width=900px style="text-align: center; font-size: 14pt"> 
       <span><b>MIDTERM EXAM</b> </span> <br>
       <span>ACADEMIC YEAR 2024/2025 - EVEN SEMESTER </span> <br>
       <span>ELECTRICAL ENGINEERING STUDY PROGRAMME </span> <br>
