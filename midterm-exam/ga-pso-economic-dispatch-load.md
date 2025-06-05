@@ -79,7 +79,7 @@ Solve them with these data
     \end{dcases}
   $$
 
-  or representing in a plot
+  or representing in a plot   
   <img src="../img-sources/cost-output-generators.png" width=400>
 
 - the price of reserve of generator, $C_{ri} = 25\%P_\text{load}$
@@ -108,7 +108,7 @@ Solve them with these data
   |  10 |  935 |
   |  11 |  900 |
 
-  or representing in a plot
+  or representing in a plot  
   <img src="../img-sources/load-ouput-generator.png" width=600>
 
 - minimum reserved requirement, 
